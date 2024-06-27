@@ -2,9 +2,10 @@ let botao = document.getElementById('botao')
 
 
 botao.addEventListener ('click', function() {
-   
-    let numero1 = document.getElementById("numero1").value
-    let numero2 = document.getElementById("numero2").value
+    
+    
+    let numero1 = Number(document.getElementById("numero1").value)
+    let numero2 = Number(document.getElementById("numero2").value)
     let funcoes = document.getElementById("funcoes").value
 
         if (funcoes == 'adicionar'){
