@@ -1,0 +1,13 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+ }
+ #div01, #div02, #div03, #div04, #div05, #div06{
+ 
+    border: 1px solid #000000;
+    padding: 20px;
+
+ }
+ 
