@@ -1,0 +1,12 @@
+
+.container {
+   display: flex;
+
+}
+#div01, #div02, #div03{
+
+   flex: 1;
+   border: 1px solid #000000;
+   padding: 20px;
+   text-align: center;
+}
